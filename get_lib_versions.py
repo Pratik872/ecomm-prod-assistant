@@ -3,8 +3,9 @@ import importlib.metadata
 packages = [
         "langchain",
         "python-dotenv",
-        "langchain_core"
-        "streamlit"
+        "langchain_core",
+        "streamlit",
+        "beautifulsoup4"
 ]
 for pkg in packages:
     try:
